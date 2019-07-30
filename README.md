@@ -1,3 +1,5 @@
+build container phpunit 4.8.16
+
 ## build
 `docker build -t phpunit/phpunit .`
 
