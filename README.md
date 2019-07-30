@@ -4,4 +4,4 @@ build container phpunit 4.8.16
 `docker build -t phpunit/phpunit .`
 
 ## how to use
-`docker run -v C:\Users\assun\developer\php\no-name:/app --rm phpunit/phpunit -c phpunit.xml`
+`docker run -v $(pwd):/app --rm phpunit/phpunit -c phpunit.xml`
